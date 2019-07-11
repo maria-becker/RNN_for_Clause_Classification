@@ -3,7 +3,7 @@ We explore this task in a deeplearning framework, where tuned word representatio
 We introduce an attention mechanism that pinpoints relevant context not only for the current instance, but also for the larger context.
 The advantage of our neural model is that it avoids the need to reproduce linguistic features for other languages and is thus more easily transferable. 
 
-We provide the code for the basic local model (GRU), the local model with attention (GRU+attention), and our best performing context model which uses labels of previous clauses and genre information (GRU+attention+label+genre).
+We provide code for the basic local model (GRU), the local model with attention (GRU+attention), and our best performing context model which uses labels of previous clauses and genre information (GRU+attention+label+genre).
 
 The data we used for our experiments can be found here, and we used the same train-dev-test split: https://github.com/annefried/sitent/tree/master/annotated_corpus
 
